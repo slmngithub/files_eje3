@@ -35,6 +35,7 @@ public class Fraccion {
     }
     public Fraccion dividir(int A, int B) throws FractionException {
         if (A==0 || B==0){
+
             throw new FractionException("El denominador del división cero es 0");
         }
         int nuevoB=this.b/B;

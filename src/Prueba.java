@@ -9,6 +9,7 @@ public class Prueba {
         }catch (FractionException F){
             System.err.println(F.getMessage());
             //F.printStackTrace();
+
         }
     }
 }
